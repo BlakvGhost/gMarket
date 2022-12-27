@@ -1,0 +1,68 @@
+:root {
+    --vt-c-white: #ffffff;
+    --vt-c-white-soft: #f8f8f8;
+    --vt-c-white-mute: #f2f2f2;
+  
+    --vt-c-black: #181818;
+    --vt-c-black-soft: #222222;
+    --vt-c-black-mute: #282828;
+  
+    --vt-c-indigo: #2c3e50;
+  
+    --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+    --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+    --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+    --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+  
+    --vt-c-text-light-1: var(--vt-c-indigo);
+    --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+    --vt-c-text-dark-1: var(--vt-c-white);
+    --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+  }
+  
+  /* semantic color variables for this project */
+  :root {
+    --color-background: var(--vt-c-white);
+    --color-background-soft: var(--vt-c-white-soft);
+    --color-background-mute: var(--vt-c-white-mute);
+    --cendre: #f7f7f7;
+    --rouge: #eb3039;
+    --color-border: var(--vt-c-divider-light-2);
+    --color-border-hover: var(--vt-c-divider-light-1);
+  
+    --color-heading: var(--vt-c-text-light-1);
+    --color-text: var(--vt-c-text-light-1);
+  
+    --section-gap: 160px;
+  }
+  
+  .owl-stage {
+    display: flex;
+    height: 100%;
+  }
+  .container-js {
+    padding: 0 10%;
+  }
+  .full {
+    width: 100%;
+    height: 100%;
+  }
+  .w30 {width: 30%!important;}
+  .w35 {width: 35%!important;}
+  .zd {z-index: 5;}
+  .zd-6 {z-index: 6;}
+  .zd-7 {z-index: 7;}
+  .zd-8 {z-index: 8;}
+  .lst-none {list-style: none;}
+  header * {font-family: 'Times New Roman', Times, serif;}
+  .link {text-decoration: none;color: black!important;font-family: 'Times New Roman', Times, serif;}
+  .sub-danger {position: relative;}
+  .sub-danger::after {position: absolute; content: ""; left: 0; bottom: 0; height: 2px;width: 15%; background-color: var(--bs-danger);}
+  .cursor-pointer {cursor: pointer;}
+
+  #sidebarUp .list-group-item:hover .fa-chevron-down,  #sidebarUp .list-group-item .under-sideList, 
+  #sidebarUp .list-group-item .fa-chevron-right, .produc-up, 
+  .product-item:hover .produc-down, .hovered { display: none;}
+  #sidebarUp .list-group-item:hover .fa-chevron-right,#sidebarUp .list-group-item:hover>.under-sideList, 
+   .product-item:hover .produc-up, .product-item-special:hover .hovered { display: block!important;}
+   
